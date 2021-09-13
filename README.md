@@ -1,4 +1,4 @@
-#YouTube-ad-skipper
+# YouTube-ad-skipper
 This program will automatically overstamp Youtube ads by taking a screenshot of your monitor  
 and then comparing that screenshot with sample ad screenshots (see below).  
 If the program detects the "Skip Ads" button on the previously taken screenshot,  
