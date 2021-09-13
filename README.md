@@ -14,9 +14,3 @@ otherwise the program will not recognize the buttons with them and the ads will 
 
 ## Exmples of the Ad screenshots
 ![](Ad1.png)
-
-![](Ad2.png)
-
-![](Ad3.png)
-
-![](Ad4.png)
