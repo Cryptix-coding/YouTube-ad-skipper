@@ -10,8 +10,8 @@ Once you have started the program, you can open Youtube in the browser and start
 The program will do the rest. If you want to stop the program you just have to press the x key for 3 seconds.  
 Then the program will exit.  
 **If your language in Youtube settings is not English, you need to make your own screenshots of the buttons  
-and paste them into the program folder instead of the already existing ones,  
-otherwise the program will not recognize the buttons with them and the ads will not be skipped.**
+and paste them into the program folder instead of the already existing ones.  
+Otherwise the program will not recognize the buttons on YouTube and the ads will not be skipped.**
 
 ## Exmples of the Ad screenshots
 ![](Ad1.png)
