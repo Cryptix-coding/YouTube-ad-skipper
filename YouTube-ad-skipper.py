@@ -39,12 +39,18 @@ def find_and_click_button(screenshot, template):
     # Find template in screenshot and click if threshold is met
     res = cv2.matchTemplate(screenshot, template, cv2.TM_CCOEFF_NORMED)
     loc = np.where(res >= THRESHOLD)
-    
+
     if loc[0].size != 0:
-        click_x, click_y = list(zip(*loc[::-1]))[0]
-        pyautogui.click(click_x, click_y)
+        # Calculate the center of the first match
+        top_left = list(zip(*loc[::-1]))[0]
+        template_height, template_width = template.shape[:2]
+        center_x = top_left[0] + template_width // 2
+        center_y = top_left[1] + template_height // 2
+
+        # Click at the center of the detected template
+        pyautogui.click(center_x, center_y)
         return True
-        
+
     return False
 
 def main():
